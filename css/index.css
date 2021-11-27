@@ -36,6 +36,7 @@ header .container:before{
 	width: 60%;
 	height: 100%;
 	margin: 0 auto;
+	box-shadow: mediumblue, 10%;
 }
 
 section{
@@ -55,19 +56,19 @@ table{
 	width: 100%;
 	margin-bottom : .5em;
     table-layout: fixed;
-
+    
 }
 
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid rgb(71, 66, 66);
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: rgb(145, 135, 135);
 }
 
 label{
@@ -131,4 +132,8 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.paciente-invalido{
+	background-color: lightcoral;
 }

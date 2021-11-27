@@ -22,13 +22,14 @@ if (peso <= 0 || peso >= 1000) {
     console.log("Peso inválido!");
     tdPeso.textContent = "Peso inválido!";
     pesoEhValido = false;
-
+    paciente.classList.add("paciente-invalido");
 }
 
 if (altura <= 0 || altura >= 3) {
     console.log("Altura inválida!");
     tdAltura.textContent = "Altura inválida!";
     alturaEhValida = false;
+    paciente.classList.add("paciente-invalido");
 }
 
 if (alturaEhValida && pesoEhValido) {
