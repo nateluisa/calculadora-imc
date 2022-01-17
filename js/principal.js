@@ -44,3 +44,9 @@ var imc = peso / (altura * altura);
 tdImc.textContent = imc.toFixed(2);
 
 }
+titulo.addEventListener("click", mostraMensagem);
+
+
+function mostraMensagem (){
+alert ("Olá, fui clicado!");
+}
